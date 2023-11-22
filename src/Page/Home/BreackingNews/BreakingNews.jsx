@@ -1,6 +1,8 @@
 import Marquee from "react-fast-marquee";
 
 const BreakingNews = () => {
+
+  
   return (
     <div className="flex my-5 bg-gray-100 p-3 items-center gap-2">
       <button className="btn btn-sm bg-[#D73050] text-white hover:bg-[#D70000]">
