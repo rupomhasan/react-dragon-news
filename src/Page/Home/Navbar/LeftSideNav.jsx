@@ -13,7 +13,7 @@ const LeftSideNav = () => {
   return (
     <div>
       <h2 className="font-semibold text-2xl mb-8">All Categories</h2>
-      <div className="space-y-4">
+      <div  className="space-y-4">
         {categories.map((category) => (
           <Link
             className=" block btn btn-sm btn-ghost w-full text-xl text-[#9f9f9f] text-left hover:text-black hover:text-center "
@@ -24,6 +24,7 @@ const LeftSideNav = () => {
           </Link>
         ))}
       </div>
+    
     </div>
   );
 };
